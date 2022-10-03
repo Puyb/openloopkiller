@@ -1,6 +1,6 @@
 'use strict';
 
-const parseScript = require('esprima').parseScript;
+const parseScript = require('esprima-next').parseScript;
 const generate = require('escodegen').generate;
 const injectionProcess = require('./blockInjection.js');
 const { VMScript } = require('vm2');

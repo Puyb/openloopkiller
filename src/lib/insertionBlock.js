@@ -1,6 +1,6 @@
 'use strict'
 
-const parseScript = require('esprima').parseScript;
+const parseScript = require('esprima-next').parseScript;
 // import {parseScript} from "esprima"
 
 module.exports = () => {
